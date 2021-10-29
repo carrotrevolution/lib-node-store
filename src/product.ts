@@ -24,13 +24,19 @@ export abstract class ProductHelper {
       priceIds: [
         'price_1HjL43BZFSgeES3GQJ9sTAmr',
         'price_1HjL9SBZFSgeES3GmxNTh0F3',
+        'price_1JpsSsBZFSgeES3Gq58zRwXX',
       ],
       duration: RevenueCatDuration.MONTHLY,
+    },
+    {
+      priceIds: ['price_1JoQ9ABZFSgeES3Gh4TrbAeG'],
+      duration: RevenueCatDuration.THREE_MONTH,
     },
     {
       priceIds: [
         'price_1HjL60BZFSgeES3GHQdLqNR5',
         'price_1HjLAjBZFSgeES3GyHASskgN',
+        'price_1JpsSgBZFSgeES3GPAD1wznZ',
       ],
       duration: RevenueCatDuration.SIX_MONTH,
     },
@@ -38,6 +44,7 @@ export abstract class ProductHelper {
       priceIds: [
         'price_1HjL6zBZFSgeES3G415OMBnf',
         'price_1HjLBWBZFSgeES3GCBpOBXfP',
+        'price_1JpsSPBZFSgeES3Grv6uHlFn',
       ],
       duration: RevenueCatDuration.YEARLY,
     },
