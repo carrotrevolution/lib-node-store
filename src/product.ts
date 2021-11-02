@@ -111,6 +111,23 @@ export abstract class ProductHelper {
     },
   ];
 
+  static durationToMonths(duration: RevenueCatDuration): number {
+    switch (duration) {
+      case RevenueCatDuration.MONTHLY:
+        return 1;
+      case RevenueCatDuration.TWO_MONTH:
+        return 2;
+      case RevenueCatDuration.THREE_MONTH:
+        return 3;
+      case RevenueCatDuration.SIX_MONTH:
+        return 6;
+      case RevenueCatDuration.YEARLY:
+        return 12;
+      default:
+        throw new Error(`Unable to cast ${duration} to months.`);
+    }
+  }
+
   static productCategory(productId: string) {
     return this.categories.find(c => c.productIds.includes(productId));
   }
