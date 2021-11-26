@@ -1,6 +1,6 @@
 {
   "name": "@carrotrevolution/store",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "Store helpers and currency",
   "main": "build/src/index.js",
